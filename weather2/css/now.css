@@ -1,0 +1,78 @@
+body{
+    background-image: url("../png/tokyo.jpg");
+    background-size:cover;
+    margin: 0;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
+    
+  }
+  
+  h2 {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #444444;
+    
+  }
+  
+  p {
+    margin: 10px 10px 10px 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #444444;
+    text-align: center;
+    
+  }
+  
+  #map {
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .result {
+    padding: 5px;
+    margin: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.781);
+    box-shadow: 0 0 15px gray;
+  }
+
+ #img {
+  background-image: url("../png/tokyo.jpg");
+ }
+ header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  box-shadow:5px;
+}
+
+.kensaku{
+  padding-top: 250px;
+}
+
+footer {
+  margin-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+h2{
+  text-align: center;
+}
+
+.btn{
+  font-weight: bold;
+  color: #FFF;
+  background: #00bcd4;
+}

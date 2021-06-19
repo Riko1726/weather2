@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather Now</title>
+    <link rel="stylesheet" type="text/css" href="css/now.css">
+    <script src="js/api2.js"></script>
+    <script src="js/now.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h2>Weather Now<img  height="35" width="35" src="png/character_egypt_ra.png"></h2>
+      
+    </header>
+    
+    <p class="kensaku">
+      <label for="area"></label>
+      <input id="area" type="text" value="例)Tokyo">
+      <button class="btn" onclick="getWeather()">検索</button>
+    </p>
+
+    <div class="result">
+      <p class="weather">
+        現在の<span id="city">お天気</span><br>
+        <img id="img" height="200" width="200" src="png/job_otenki_oneesan.png"><br>
+        <span id="weather"></span><br>
+        <br>
+        気温: <span id="temperature"></span>℃<br>
+        <br>
+        湿度: <span id="humidity"></span> %<br>
+        <br>
+        気圧: <span id="pressure"></span> hPa <br>
+        <br>
+        最低気温:<span id="tempermin"></span> ℃ <br>
+        <br>
+        最高気温:<span id="tempermax"></span> ℃
+        <br>
+
+        
+      </p>
+    </div>
+    <footer>
+      <div class="container">
+        <h2>Weather Now</h2>
+      </div>
+    </footer>
+  </body>
+</html>
